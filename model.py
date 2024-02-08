@@ -43,9 +43,6 @@ class MultiHeadAttention(nn.Module):
         self.attn_dropout = nn.Dropout(config.dropout)
         self.resid_dropout = nn.Dropout(config.dropout)
         self.n_head = config.n_head
-        self.n_embd = config.n_embd
-        self.dropout = config.dropout
-
        
     def forward(self, q, k, v):
         B, T, E = k.size() # batch size, sequence length, embedding dimensionality (n_embd)
