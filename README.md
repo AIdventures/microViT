@@ -23,7 +23,7 @@ a less than an hour in consumer GPUs. The repository is structured as follows:
 └── train.py <- training the model ~150 lines
 ```
 
-Our model is based on the raw implementation of the ViT model, with the encoder part. The task we will be working on is the numbers classification task for [MNIST dataset](https://en.wikipedia.org/wiki/MNIST_database). 
+microViT is based on the raw implementation of the ViT model, with the encoder part. The task we will be working on is the numbers classification task for [MNIST dataset](https://en.wikipedia.org/wiki/MNIST_database). 
 
 During the training you will see how the model converges: the loss will decrease and the accuracy will increase.
 
